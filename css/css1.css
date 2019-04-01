@@ -16,11 +16,13 @@ body {
 	
 header {
 	width: 960px;
-	height: 120px;
-	background-image:url(../images/a&mlogo.jpg);
+	height: auto;
+	/*background-image:url(../images/a&mlogo.jpg);*/
+}
 
-		}
-		
+header img {
+	background: red;
+}
 header h3 {
 	margin-top: 15px;
 	float: right;
@@ -29,15 +31,12 @@ header h3 {
 	box-shadow: 4px 4px 4px #5b555d;
 	margin-right: 3px;
 	/*border-radius: 10px;*/
-	
-	
 	}
 
-	
 nav {
 	height: 70px;
 	width: 960px;
-	background-color:orange;
+	background-color: rgba(235, 219, 161, 0.5);
 	
     }
 
