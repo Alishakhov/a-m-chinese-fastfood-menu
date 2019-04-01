@@ -1,0 +1,464 @@
+* {
+	margin: 0;
+	padding: 0;}
+	
+body {
+	background-color: #333333;
+	}
+
+.container {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	border: 10px solid #ffffff;
+	background-color: #ffffff;
+	}
+	
+header {
+	width: 960px;
+	height: 120px;
+	background-image:url(../images/a&mlogo.jpg);
+
+		}
+		
+header h3 {
+	margin-top: 15px;
+	float: right;
+	text-align: center;
+	padding-bottom: 0px;
+	box-shadow: 4px 4px 4px #5b555d;
+	margin-right: 3px;
+	/*border-radius: 10px;*/
+	
+	
+	}
+
+	
+nav {
+	height: 70px;
+	width: 960px;
+	background-color:orange;
+	
+    }
+
+nav ul {
+	float: left;
+	margin-left: 100px;
+	margin-right: 20px;
+	text-align: center;
+	list-style: none;
+	}
+
+nav li { 
+	float : left;
+	}
+	
+a {
+	display: block;
+	margin-right:1px;
+	text-decoration: none;
+	margin-top: 0px;
+	padding: 20px;
+	font-size: 24px;
+	margin-left: 0px;
+	color: #050704;
+	transition: background 0.5s linear 0s, color 0.5s linear 0s;}
+a:hover {
+	color: #FFFFFF;
+	background-color: #006666;
+	}
+	
+	
+	
+	}
+	
+.content {
+	width: 960px;
+	height:auto;
+	/*background-image:url(../images/homebanner2.jpg);*/
+	
+	}
+#note {
+	margin-top: 30px;
+	width: 820px;
+	height: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	
+	}
+	
+	
+/*.sides{
+	float: left;
+	width: 300px;
+	height: 900px;
+	margin-top: 100px;
+	margin-left: 10px;}
+
+.choices{
+	float: left;
+	width: 550px;
+	height: 900px;
+	margin-top: 120px;
+	margin-right: 20px;
+	}*/
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	}
+	
+/*the banner belong to home page*/
+.banner {
+	float: left;
+	width: 960px;
+	height: 540px;
+	background-image:url(../images/banner4.jpg);
+	}
+
+/*belong to chef's creation page*/	
+.left {
+	width: 400px;
+	height:700px;
+	float: left;
+	background-color: green;
+	}
+/*belong to chef's creation page*/
+.right{
+	width: 400px;
+	height:700px;
+	float: right;
+	margin: 20px 0px 0px 20px;
+	background-color: red;
+	
+	}
+.friedrice {
+		} 
+footer {
+	height: 150px;
+	width: 960px;
+	background-color: orange;
+	
+	}
+
+	/*footer belong to all the paged*/
+.footer-location {
+	float: left;
+	width: 500px;
+	}
+.footer-location p{
+	margin: 20px 0px 0px 20px;
+	
+	}
+ .footer-email {
+	float: right;
+	width: 250px;
+	}
+.footer-email p{
+	margin: 20px 0px;
+	padding-right: 0px;
+
+	}
+footer p {
+	margin-left: 20px;
+	}
+
+	/*belong to drink page banner*/
+.drink-banner{
+	float: left;
+	width: 800px;
+	height: 337px;
+	border: 1px solid #660000;
+	margin-left: 79px;
+	margin-top: 30px;
+	
+	
+	}
+	
+/*belong to left column of the drink*/	
+.drink-left{
+	float: left;
+	width: 480px;
+	height: auto;
+	background-color: ;
+	}
+	
+/*boba drink 1st column*/
+.drink1 {
+	float: left;
+	margin-top: 50px;
+	margin-left: 79px;
+	margin-right: 20px;
+	width:379px;
+	height:auto;
+	border: 1px solid #536651;
+	background-color: #ffffff;
+}
+.drink1 h2{
+	padding-top: 10px;
+	color: #1d1718;
+	text-align: center;
+	
+	padding-bottom: 10px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+	}
+.drink1  p{
+	padding-top: 15px;
+	color: #1d1718;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 4px 4px 4px #5b555d;
+	padding-bottom:15px;
+	
+}
+
+/*belong to fountain drink 2nd column */
+.drink2 {
+	float: left;
+	margin-top: 50px;
+	margin-right: 79px;
+	margin-left: 20px;
+	width:379px;
+	height:auto;
+	border: 1px solid  #536651;
+	background-color: #ffffff;}
+	
+.drink2 h2 {
+	padding-top: 10px;
+	color: #1d1718;
+	text-align: center;
+
+	padding-bottom: 10px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+	
+	}
+	
+/*under the drink 2 it is f stand for fountain s stand for soda*/
+.fs {
+	width:220px;
+	float: left;
+	margin-left: 5px;
+	box-shadow: 4px 4px 4px #5b555d;
+	margin-right: 10px;
+
+	}
+	
+.fs p{
+	padding-top: 15px;
+	text-align: center;
+	line-height: 150%;
+	color: #1d1718;
+	font-size: 20px;
+	box-shadow: 4px 4px 4px #5b555d;
+	
+	padding-bottom:15px;
+}
+.drink2 img {
+	float: right;
+	margin-right: 8px;
+	margin-top: 50px;
+	}
+.clear{
+	clear: both;
+	}
+/*belong to 3rd column it called can/bottle */
+.drink3{
+	float: left;
+	width: 379px;
+	height:485px;
+	border: 1px solid  #536651;
+	margin-left: 79px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: #ffffff;}
+.drink3 img {
+	margin-left: 27px;
+	margin-top: 40px;
+	}
+.drink3  h2{
+	padding-top: 10px;
+	color: #1d1718;
+	text-align: center;
+
+	padding-bottom: 10px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+	
+}
+
+/*belong to right column of the drink page*/
+.drink-right{
+	float: left;
+	width: 480px;
+	height: auto;
+	background-color: ;
+}	
+	
+/*belong to hochata 4th column*/	
+.drink4{
+	float: right;
+	width: 379px;
+	height: auto;
+	border: 1px solid  #536651;
+	margin-left: 79px;
+	margin-right: 79px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+	}
+	
+.drink4  h2 {
+	padding-top: 10px;
+	color: #1d1718;
+	text-align: center;
+
+	padding-bottom: 10px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+}
+	
+.drink4 img {
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+	}
+	
+/*under the drink 4 belong name of drink <p>*/
+.hochata {
+	float: left;
+	width: 220px;
+	margin-left: 5px;
+	height: auto;
+	}
+.hochata p  {
+	padding-top: 15px;
+	text-align: center;
+	line-height: 150%;
+	color: #1d1718;
+	font-size: 20px;
+	box-shadow: 4px 4px 4px #5b555d;
+
+	padding-bottom:15px;
+}
+	
+/*under the drink 3 name of the <p>*/
+.juicy {
+	float: left;
+	width: 220px;
+	margin-left: 5px;
+	height: auto;
+	}
+.juicy  p{
+	padding-top: 15px;
+	text-align: center;
+	line-height: 150%;
+	color: #1d1718;
+	font-size: 20px;
+	box-shadow: 4px 4px 4px #5b555d;
+	
+	padding-bottom:15px;
+}
+
+/*menu page side dish*/
+.side {
+	width: 820px;
+	height: auto;
+	margin-right:69px;
+	margin-left: 69px;
+	margin-top: 30px;
+	
+	border: 1px solid #766e1f;
+	background-color: #ffffff;
+
+	}
+.side h2 {
+	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+	
+	}
+/*belong to choice box*/
+.choices{
+	width: 820px;
+	height: auto;
+	margin-right:69px;
+	margin-left: 69px;
+	margin-top: 30px;
+	border: 1px solid #766e1f;
+	background-color: #ffffff;}
+
+
+.choices h2 {
+	padding-top: 10px;
+
+	text-align: center;
+	padding-bottom: 20px;
+	background-color:orange;
+	box-shadow: 4px 4px 4px #1d1718;
+	}
+/*menu page left column of the bambo a or b*/
+.comboA{
+	margin-left:69px;
+	margin-right:69px;
+	width: 400px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	
+	background-color:#ffffff;}
+.comboA h2{
+	margin: 30px 0px 0px 0px;
+
+	
+	}
+.comboA p{
+	margin: 0px  0px 50px 30px;
+	font-size: 30px;
+	}
+.combo-img {
+	float: right;
+	width: 300px;
+	margin-left: 0px;
+	margin-top: 30px;
+	
+	}
+figure {
+	width: 318px;
+	margin-top: 30px;
+	float: left;
+	height: auto;
+	border: 1px solid #766e1f;
+	background-color: #fbfa32;
+	padding: }
+figure img {
+	box-shadow: 4px 4px 4px #03040c;
+	/*outline: 1px solid #766e1f;*/
+	border: 10px solid #f1f4ef;
+	margin-left: 15px;
+	margin-top: 20px;}
+figcaption{
+	text-align: center;
+	margin-top: 18px;
+	background-color: orange;
+	padding: 10px 0px 0px 0px;
+	}
+.clear{
+	clear: both;
+}
+
+
+	
+
+
+	
+
+
+	
+
+
+	
+
