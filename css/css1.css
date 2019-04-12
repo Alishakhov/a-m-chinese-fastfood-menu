@@ -20,9 +20,6 @@ header {
 	/*background-image:url(../images/a&mlogo.jpg);*/
 }
 
-header img {
-	background: red;
-}
 header h3 {
 	margin-top: 15px;
 	float: right;
@@ -130,8 +127,7 @@ a:hover {
 	background-color: red;
 	
 	}
-.friedrice {
-		} 
+/* Footer for all pages*/
 footer {
 	height: 150px;
 	width: 960px;
